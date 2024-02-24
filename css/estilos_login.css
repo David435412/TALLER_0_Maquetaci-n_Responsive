@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/login/bg-login.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 100px auto;
+    background-color: #3083cc9f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../img/login/vector-login.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(4px);
+}
+
+
+.logo {
+    height: 40%;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.fa-circle-user {
+    font-size: 80px;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-bottom: 12%;
+    display: block;
+
+}
+
+input {
+    width: 60%;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+input[type="submit"] {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #333;
+    width: 60%;
+}
+
+.center label {
+    color: white;
+
+}
+
+.center p {
+    color: white;
+    font-weight: 100;
+}
+
+.center a {
+    text-decoration: none;
+    color: #000;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background-size: 200%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    body {
+        background-size: 200%;
+    }
+
+}
